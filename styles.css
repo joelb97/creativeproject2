@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Pinscher';
+    src: url("SHPinscher-Regular.otf") format("opentype");
+}
+
+body {
+  font-family: 'Pinscher';
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: 0;
+  background-color: #aa0050;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.header {
+  width: 100%;
+  margin-right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 15%;
+}
+
+#jokeForm {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #fecae2;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  background-color: #aa0050;
+  padding: 5px;
+  font-size: 16px;
+  margin: 0 auto;
+  color: #fecae2;
+  border: none;
+}
+
+select {
+  width: 30%;
+  font-family: 'Pinscher';
+  background-color: #fecae2;
+  color: #aa0050;
+  border: none;
+}
+
+button {
+  width: 30%;
+  font-family: 'Pinscher';
+  background-color: #fecae2;
+  color: #aa0050;
+  border: none;
+}
+
+#jokeResult p {
+  color: #fecae2;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #aa0050;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer a {
+  color: #fecae2;
+  text-decoration: none;
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .header {
+    justify-content: center;
+  }
+
+  img {
+    width: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  select {
+    margin-top: 15px;
+    width: 15%;
+  }
+
+  button {
+    margin-top: 15px;
+    width: 15%;
+  }
+}
